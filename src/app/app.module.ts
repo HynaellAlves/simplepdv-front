@@ -7,9 +7,10 @@ import { LandingPageModule } from './landing-page/landing-page.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { CadastroComponent } from './landing-page/cadastro/cadastro.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { GraficoVendasComponent } from './shared/grafico-vendas/grafico-vendas.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, GraficoVendasComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
