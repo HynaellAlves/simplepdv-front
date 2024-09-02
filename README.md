@@ -1,6 +1,7 @@
 # Simple PDV landing page página de venda
 
 Este é um projeto de Ponto de Venda desenvolvido em Angular 15.
+[Documentação da estrutura do projeto](https://docs.google.com/document/d/1NEi18xYIdJRh4jvzejkVWJhBq2zn6_l6PgugzNDTXNI/edit?usp=sharing).
 
 ## Pré-requisitos
 
