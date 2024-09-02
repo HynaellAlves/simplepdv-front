@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LandingPageModule } from './landing-page/landing-page.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { CadastroComponent } from './landing-page/cadastro/cadastro.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,6 +15,7 @@ import { CadastroComponent } from './landing-page/cadastro/cadastro.component';
     AppRoutingModule,
     LandingPageModule,
     DashboardModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
