@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router'; // Importe RouterModule e Routes
 import { HomeComponent } from './home/home.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   {
@@ -13,6 +14,11 @@ const routes: Routes = [
     path: 'cadastro',
     component: CadastroComponent,
   },
+  {
+    path: 'login',
+    component: LoginComponent,
+  }
+
 ];
 
 @NgModule({

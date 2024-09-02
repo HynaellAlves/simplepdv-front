@@ -21,4 +21,4 @@ import { GraficoVendasComponent } from './shared/grafico-vendas/grafico-vendas.c
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }

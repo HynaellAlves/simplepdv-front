@@ -1,0 +1,89 @@
+@import '/src/styles.scss';
+
+.container {
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+  height: 100%;
+
+  .login_content {
+    min-width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login_banner {
+    min-width: 50%;
+    height: 100%;
+    background-color: yellow;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+mat-card {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  padding: 2%;
+  box-shadow: none;
+
+  .title_subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  mat-card-title {
+    color: $primary_color_title;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 3.3rem;
+    margin: 5% 0;
+  }
+
+  mat-card-subtitle {
+    color: $primary_color_subtitle;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+  }
+
+  .form {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Poppins', sans-serif;
+
+    label {
+      color: $primary_color_label;
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin: 1% 0;
+    }
+  }
+
+  .inputs {
+    width: 100%;
+    padding: 1.5% 2%;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: 1px solid #80808044;
+    margin: 1% 0;
+  }
+
+  .addons {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2rem;
+
+  }
+}
