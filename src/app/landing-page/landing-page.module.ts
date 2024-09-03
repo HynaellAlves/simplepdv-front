@@ -7,6 +7,7 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { LoginComponent } from './login/login.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,6 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     CadastroComponent,
     LoginComponent
   ],
-  imports: [CommonModule, LandingPageRoutingModule, MatCardModule, MatCheckboxModule],
+  imports: [CommonModule, LandingPageRoutingModule, MatCardModule, MatCheckboxModule, MatButtonModule],
 })
-export class LandingPageModule {}
+export class LandingPageModule { }

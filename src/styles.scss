@@ -1,10 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,600&family=Poppins:wght@100;300;400;500;600&display=swap');
 
 $primary_color_title: #1D3557;
-$primary_color_subtitle: #808080;
+$primary_color_subtitle: #3a3a3a;
 $primary_color_label: #2F323A;
+$primary_color_text: #ffffff;
+$primary_color_button: #457B9D;
+$primary_color_link: #1D3557;
+
+$secondary_color_text: #0000;
+$secondary_color_label: #666666;
 
 * {
   padding: 0;

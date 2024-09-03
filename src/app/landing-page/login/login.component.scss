@@ -17,7 +17,8 @@
   .login_banner {
     min-width: 50%;
     height: 100%;
-    background-color: yellow;
+    background: url('/assets/bannerLogin.png') no-repeat;
+    background-size: cover;
 
     img {
       width: 100%;
@@ -37,13 +38,14 @@ mat-card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 4%;
   }
 
   mat-card-title {
     color: $primary_color_title;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 3.3rem;
+    font-size: 3.2rem;
     margin: 5% 0;
   }
 
@@ -51,7 +53,31 @@ mat-card {
     color: $primary_color_subtitle;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+  }
+
+  mat-card-footer {
+    display: flex;
+    width: 100%;
+    height: min-content;
+    justify-content: center;
+    margin: 5% 0;
+
+    p {
+      color: $secondary_color_label;
+      font-size: 1.2rem;
+    }
+
+    .icon_TC {
+      width: 26px;
+      height: 13px;
+      margin: 0 2%;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
   }
 
   .form {
@@ -63,27 +89,53 @@ mat-card {
 
     label {
       color: $primary_color_label;
-      font-size: 1.3rem;
-      font-weight: 600;
-      margin: 1% 0;
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin: 2% 0;
     }
-  }
 
-  .inputs {
-    width: 100%;
-    padding: 1.5% 2%;
-    font-size: 1.1rem;
-    border-radius: 8px;
-    border: 1px solid #80808044;
-    margin: 1% 0;
-  }
+    .inputs {
+      width: 100%;
+      padding: 1.5% 2%;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      border: 1px solid #80808044;
+      margin: 1% 0;
+      outline: none;
+    }
 
-  .addons {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 1.2rem;
+    .inputs::placeholder {
+      color: #00000041;
+    }
 
+    .addons {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 1.2rem;
+
+      p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+          color: $primary_color_link;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .btn_enter {
+      width: 100%;
+      color: $primary_color_text;
+      font-size: 1.2rem;
+      font-weight: 500;
+      letter-spacing: -0.01px;
+      padding: 5%;
+      background-color: $primary_color_button;
+      outline: none;
+    }
   }
 }
